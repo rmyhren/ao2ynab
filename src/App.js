@@ -39,7 +39,7 @@ class App extends Component {
                 link.download = arrOfx['bankid'] + '_' + arrOfx['account'] + '_' + arrOfx['sDate'] + '_' + arrOfx['eDate'] + '.ofx';
                 const blob = new Blob([arrOfx['header']], {type: 'text/plain'});
                 link.href = window.URL.createObjectURL(blob);
-                //link.click();
+                link.click();
             },
         });
     }
