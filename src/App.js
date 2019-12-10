@@ -18,7 +18,7 @@ class App extends Component {
         };
 
         this.dropdown = [
-          'Roberts konto', 'Felleskonto', 'Randis konto'
+          'Roberts konto', 'Felleskonto', 'Randis konto', 'Felles sparekonto'
         ]
     }
 
